@@ -25,7 +25,7 @@ function Header() {
         {headers.map((header, idx) => (
           <Link
             href={header.url}
-            className="tap-transparent cursor-pointer hover:text-cyan-500 hover:duration-100 hover:ease-in hover:scale-125"
+            className=" cursor-pointer hover:text-cyan-500 hover:duration-100 hover:ease-in hover:scale-125"
             key={idx}
           >
             {header.name}

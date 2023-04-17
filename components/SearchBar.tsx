@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { FaSearch } from "react-icons/fa";
+import { MagnifyingGlassIcon } from "@heroicons/react/20/solid";
 
 function SearchBar() {
   return (
@@ -11,9 +12,9 @@ function SearchBar() {
         placeholder="Search for task..."
         name="search"
       />
-      <FaSearch
-        size={20}
-        className="absolute text-gray-50 place-self-center mr-4 cursor-pointer"
+      <MagnifyingGlassIcon
+        // size={20}
+        className="absolute text-gray-50 place-self-center mr-4 cursor-pointer h-6 w-6"
       />
     </div>
   );
